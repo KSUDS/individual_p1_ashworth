@@ -1,16 +1,14 @@
 ### Clean This Up....  Just listing sites for now
 
+## Project 1: Which James Bond Actor Is The Best
 
-https://www.the-numbers.com/movies/franchise/James-Bond#tab=summary
+There are three sources of data for this analysis.  The first is the financial information on all the James Bond movies.  Secondly the ratings and actors for all James Bond movies.  Lastly, a chart for inflation rates to normalize for the difference in release years.
 
-Will need to adjust for inflation
+[James Bond Movies' Financials]https://www.the-numbers.com/movies/franchise/James-Bond#tab=summary
 
+[James Bond Movies' Ratings]https://www.kaggle.com/jackjaehwankim/james-bond-series
 
-https://www.kaggle.com/jackjaehwankim/james-bond-series
-
-for inflation numbers
-
-https://www.macrotrends.net/countries/USA/united-states/inflation-rate-cpi
+[Yearly Inflation Rates]https://www.macrotrends.net/countries/USA/united-states/inflation-rate-cpi
 
 
 
