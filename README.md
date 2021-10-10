@@ -1,56 +1,19 @@
-# Personal data projects
+# Who Is THE James Bond
 
-Use this template repo for your personal data projects. Would you please use the following format for your repository? Please name your repository in your personal space using the following naming structure `[title]-[lastname]-[languagesused]`.  You will then complete a pull request to move your personal data projects into our organization.
+There have been 25 James Bond movies over the last 58 years (excluding releases in 2021) generating over $17B in inflation adjusted profit.  Over these 25 movies there have been six actors portraying James Bond, and the question that often comes up "Who Is James Bond". This analysis is being done for the movie loving fans to help answer that question.
 
-- __Project Purpose:__ Take one to two paragraphs to explain your goals.  Why did you use this data? What skills are you going to demonstrate? Did you do this work for a client? 
-- __Tools used:__ Provide an overview of the programming languages and packages you leveraged for this work.  You could provide links to the pertinent reading material that you leveraged to complete the job. Provide links to your final scripts stored in your repository.
-- __Results:__ This is your conclusion.  Explain why your work matters.  How could others use it?  What are your next steps? Show some key findings.
+Let us start by looking at Graph 1 which shows the inflation adjusted worldwide box-office take by year. One can see all the movies appear lucrative as the majority exceed $400M in worldwide box-office totals. Additionally, the budget line appears to have no correlation to the box-office totals. Perhaps it is better to review the inflation adjusted profit.  
 
-## Folder structure
+Before diving into the profits let us review a couple of non-financial based graphs. Graph 2 is a quick view on counts of movies by actor. This of course could have drastic impacts on the total profit as we would not expect an actor with one movie to exceed one who has done seven movies.  It is clear Connery and Moore have an edge portraying James Bond in seven movies each.  The current James Bond, Daniel Craig, has made four James Bond movies through 2020.  
 
-```
-- readme.md
-- scripts
----- readme.md (short description of each script)
----- data_munge.R
----- data_munge.py
----- eda.R
----- model.py
-- data (less than 100 Mb)
----- readme.md (links to data larger than 100 Mb and data details.)
----- crimes.csv
----- visits.json
-- documents
----- readme.md (notes while doing your project)
----- mlmethod.pdf
----- api_guide.pdf
-```
+Moving on to Graph 3 which covers the IMDB user ratings of various movies.  For the James Bond movies they rate Connery and Craig over 7.0 on average out of 10.  Similar to the count of movies Roger Moore is right behind with 6.75 average rating of his James Bond roles.  
 
-## Writing about data science
+The first of the detailed financials, Graph 4 shows the non-adjusted worldwide box-office take.  Daniel Craig easily leads with over $3B, in fact he almost takes in more than the other 21 movies combined.  Since these movies span over 58 years this is not quite comparing apples to apples.
 
-[Thusan's article on how writing about data science is not easy](https://towardsdatascience.com/lets-admit-it-writing-about-data-science-is-not-easy-37a376777d36) could be helpful as you document your project and skills.
+In Graph 5 one can see the inflation adjusted profit by actor.  Connery far exceeds his counterparts with $5B of inflation adjusted profits followed by Moore at approximately $4B.  Lastly, Daniel Craig's box-office profits are approximately $2.75B.  It appears Connery is truly the king, but we must remember he did have seven movies versus Craig's four.
 
-## Data sources
+The final graph, Graph 6, shows the average inflation adjusted movie profit by actor.  In this we have the same reoccurring actors lead the pack:  Connery averages $721M per movie, Craig $681M, and Moore at $581M.  
 
-You don't need to make these projects complicated. These projects are built to show your work using the skills you have developed during the course. I would make sure that these are presentable in your Github space. You want to demonstrate your creativity. You could use the following links to find a new data set. 
+At the end of 2020 the actor who is the best James Bond seems clear, Sean Connery.  He leads with an average inflation adjusted profit of $721M per movie, first in total inflation adjusted profit of $5B, and the raters at IMDB have his movies ranked second at 7.0 of 10.  
 
-- [FiveThirtyEight](https://github.com/fivethirtyeight/data)
-- [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
-- [WorkoutWednesday](http://www.workout-wednesday.com/)
-- [Kaggle](https://www.kaggle.com/datasets)
-- [data.world](https://data.world/search?context=community&entryTypeLabel=dataset&q=free+data&type=all)
-
-## Github pages
-
-It would help if you took the time to publish your repo for easier viewing of the files.  Please follow the directions at [Github pages](https://pages.github.com/) to build your pages footprint on the internet.
-
-## Questions
-
-### Is the expectation of our personal projects similar to that of the class projects we are completing?
-
-Yes & No. Here are a few points to highlight the comparison
-
-1. Three different data sets is the main criteria. Hopefully different challenges to your skills and the data can be in the same area for all three if you desire.
-2. You can choose the language. Please choose based on where you want employment.
-3. We don't get much into the story telling with our class projects.  But, I would hope you tell a story that includes some graphs and analysis.
-4. Think of these as sales pitches for future employment. Your personal projects should be in your own Github space.
+It should be noted Craig has a fifth James Bond movie appearing in 2021 and he could still take the role of James Bond more in the future.  
