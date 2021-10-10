@@ -120,3 +120,23 @@ plot5 = (ggplot(jb_combined, aes(x = 'year', y = 'inf_adj_worldwide_mil')) +
 plot5.save("C:/code/individual_p1_ashworth/documents/graph5_worldwide_by_year.png", width = 15, height = 6)
 
 # %%
+# Graph average imdb
+
+wam4 = jb_combined.groupby(['main_actor'],as_index = False)['imdb_rating'].sum()
+wam5 = jb_combined.groupby(['main_actor'],as_index = False).apply(w_avg, 'imdb_rating', 'title')
+wam5.columns = ['main_actor', 'avg_imdb_rating']
+
+wam6 = wam4.merge(wam5, how = 'inner')
+
+plot6 = (ggplot(jb_combined, aes(x = 'main_actor', y = 'imdb_rating')) +
+    geom_boxplot() +
+    coord_flip() +
+    labs(x = "Actor",
+         y = "Average IMDB Rating",
+         title = "IMDB Ratings\nSean Connery & Daniel Craig Lead With Over 7.00 Ratings") +
+    theme_bw() 
+)
+
+# %%
+# Save the first graph
+plot6.save("C:/code/individual_p1_ashworth/documents/graph6_imdb_ratings_by_actor.png", width = 15, height = 6)

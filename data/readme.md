@@ -1,4 +1,4 @@
-### Clean This Up....  Just listing sites for now
+# James Bonds Datasets
 
 ## Project 1: Which James Bond Actor Is The Best
 
@@ -10,15 +10,14 @@ There are three sources of data for this analysis.  The first is the financial i
 
 [Yearly Inflation Rates]https://www.macrotrends.net/countries/USA/united-states/inflation-rate-cpi
 
+### inflation_rt.csv
+This data used to adjust for inflation as the James Bonds series stretches across 54 years.
 
+### james_bond_dollars.csv
+This data contains the box office and budget dollars for all James Bonds movies.
 
+### james_bond_series.csv
+This data contains imdb ratings and review counts.
 
-#### other projects
-https://www.kaggle.com/goldenoakresearch/us-acs-mortgage-equity-loans-rent-statistics?select=real_estate_db.csv
-
-iphone as % of avg income
-
-https://www.kaggle.com/zinovadr/average-monthly-salary-after-taxes-by-country?select=After+tax+plus+year+gross.csv
-https://www.kaggle.com/zerryberry/iphone-prices-country-wise
-
-https://www.kaggle.com/mutindafestus/world-statistics-dataset-from-world-bank
+### james_bond_dollars.xlsx
+Simply a working document for the coder.
